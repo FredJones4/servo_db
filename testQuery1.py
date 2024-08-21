@@ -1,7 +1,7 @@
 import pandas as pd
 import re
 # Load the CSV data
-df = pd.read_csv('testQuery1.csv')
+df = pd.read_csv('servoTestFile.csv')
 
 # Function to split rows with multiple Torque and Speed entries
 def split_rows(row):
